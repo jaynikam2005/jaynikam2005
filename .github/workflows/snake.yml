@@ -10,15 +10,14 @@ on:
   
   # Run on every push to main branch
   push:
-    branches:
-    - main
+    branches: [ main ]
 
 jobs:
   generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     
     steps:
       # Checkout the repository
@@ -27,13 +26,13 @@ jobs:
       
       # Generate the snake animation
       - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk@v3
         with:
           github_user_name: jaynikam2005
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=#00D9FF&color_dots=#8E75B2,#00FF41,#FFD700,#FF6B6B,#4ECDC4
+            dist/github-contribution-grid-snake.gif?color_snake=00D9FF&color_dots=8E75B2,00FF41,FFD700,FF6B6B,4ECDC4
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           

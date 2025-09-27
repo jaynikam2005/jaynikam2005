@@ -43,9 +43,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: 🎨 CREATE CYBERPUNK HTML SHOWCASE
+      - name: 🎨 CREATE CYBERPUNK SHOWCASE FILES
         run: |
-          mkdir -p dist/showcase
+          # Create showcase directory with proper permissions
+          sudo mkdir -p dist/showcase
+          sudo chown -R $USER:$USER dist/
+          
+          # Create the showcase HTML file
           cat > dist/showcase/index.html << 'EOF'
           <!DOCTYPE html>
           <html lang="en">
@@ -274,6 +278,11 @@ jobs:
       
       - name: 🎪 DEPLOY CYBER SNAKE FILES
         run: |
+          # List generated files for debugging
+          echo "📂 Generated files:"
+          ls -la dist/
+          echo ""
+          
           # Configure git
           git config --global user.name 'Cyber Snake Bot'
           git config --global user.email 'actions@github.com'

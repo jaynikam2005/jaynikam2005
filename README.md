@@ -219,7 +219,7 @@ const jayesh = {
 ## 🌟 Current Focus
 
 <div align="center">
-  <img src="assets/coding.gif" width="350" height="200" alt="Coding Animation"/>
+  <img src="assets/coding.gif" width="100%" height="200" alt="Coding Animation"/>
 </div>
 
 - 🔭 Working on **Advanced AI Integration** in web applications

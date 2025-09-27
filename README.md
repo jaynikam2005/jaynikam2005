@@ -25,7 +25,7 @@
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&lines=Full+Stack+Developer+%F0%9F%9A%80;AI+%26+Machine+Learning+Enthusiast+%F0%9F%A4%96;Building+the+Future+with+Code+%F0%9F%8C%9F;Always+Learning%2C+Always+Growing+%F0%9F%93%88)
 
 <p align="center">
-<img src="./assets/cyberpunk.gif" alt="Cyberpunk Animation" width="100%" height="auto"/>
+<img src="./assets/cyberpunk.gif" alt="Cyberpunk Animation" width="auto" height="auto"/>
 </p>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=jaynikam2005&color=0e75b6&style=flat)](https://github.com/jaynikam2005)

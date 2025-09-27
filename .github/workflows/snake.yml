@@ -1,46 +1,402 @@
-name: Generate Snake Animation
+name: 🐍 CYBER SNAKE MATRIX GENERATOR 🤖
 
 on:
-  # Run automatically every 12 hours
   schedule:
-    - cron: "0 */12 * * *"
-  
-  # Allows you to run this workflow manually from the Actions tab
+    # Run every 6 hours for maximum freshness
+    - cron: "0 */6 * * *"
   workflow_dispatch:
-  
-  # Run on every push to main branch
   push:
     branches: [ main ]
 
 jobs:
-  generate:
+  cyber-snake-matrix:
     permissions:
       contents: write
+      pages: write
+      id-token: write
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     
     steps:
-      # Checkout the repository
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: 🚀 INITIALIZING CYBER MATRIX...
+        run: |
+          echo "🤖 BOOTING UP SNAKE AI SYSTEMS..."
+          echo "⚡ LOADING CYBERPUNK PROTOCOLS..."
+          echo "🌐 CONNECTING TO THE MATRIX..."
       
-      # Generate the snake animation
-      - name: Generate github-contribution-grid-snake.svg
+      - name: 📡 CHECKOUT REPOSITORY MATRIX
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: 🎮 GENERATE ULTIMATE CYBER SNAKE ANIMATIONS
         uses: Platane/snk@v3
         with:
           github_user_name: jaynikam2005
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=00D9FF&color_dots=8E75B2,00FF41,FFD700,FF6B6B,4ECDC4
+            dist/cyber-snake-light.svg
+            dist/cyber-snake-dark.svg?palette=github-dark&background_color=0d1117
+            dist/cyber-snake-neon.svg?palette=github-green-purple&background_color=000000
+            dist/cyber-snake-matrix.svg?palette=github&background_color=001100&color_snake=00ff41&color_dots=00ff41,008f11,005500,003300
+            dist/cyber-snake-cyberpunk.svg?palette=github-dark&background_color=0a0a0a&color_snake=00d9ff&color_dots=00d9ff,8e75b2,00ff41,ffd700,ff6b6b,4ecdc4,ff00ff,00ffff
+            dist/cyber-snake-rainbow.svg?palette=github&color_snake=ff0080&color_dots=ff0080,ff4000,ff8000,ffff00,80ff00,00ff00,00ff80,00ffff,0080ff,4000ff,8000ff,ff00ff
+            dist/cyber-snake-hacker.gif?palette=github-dark&background_color=0d1117&color_snake=00ff41&color_dots=00ff41,008f11,005500
+            dist/cyber-snake-ultimate.gif?color_snake=00d9ff&color_dots=ff00ff,00ffff,ffff00,ff0080,8000ff,00ff00&background_color=000000
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 🎨 CREATE CYBERPUNK HTML SHOWCASE
+        run: |
+          mkdir -p dist/showcase
+          cat > dist/showcase/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>🐍 JAYESH'S CYBER SNAKE MATRIX 🤖</title>
+              <style>
+                  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+                  
+                  * { margin: 0; padding: 0; box-sizing: border-box; }
+                  
+                  body {
+                      background: linear-gradient(45deg, #0a0a0a, #1a1a2e, #16213e, #0f3460);
+                      background-size: 400% 400%;
+                      animation: gradientShift 8s ease infinite;
+                      font-family: 'Orbitron', monospace;
+                      color: #00d9ff;
+                      min-height: 100vh;
+                      overflow-x: hidden;
+                  }
+                  
+                  @keyframes gradientShift {
+                      0% { background-position: 0% 50%; }
+                      50% { background-position: 100% 50%; }
+                      100% { background-position: 0% 50%; }
+                  }
+                  
+                  .matrix-bg {
+                      position: fixed;
+                      top: 0;
+                      left: 0;
+                      width: 100%;
+                      height: 100%;
+                      pointer-events: none;
+                      opacity: 0.1;
+                      z-index: -1;
+                  }
+                  
+                  .container {
+                      max-width: 1200px;
+                      margin: 0 auto;
+                      padding: 20px;
+                      position: relative;
+                      z-index: 1;
+                  }
+                  
+                  .cyber-header {
+                      text-align: center;
+                      margin-bottom: 50px;
+                      padding: 30px;
+                      border: 2px solid #00d9ff;
+                      border-radius: 15px;
+                      background: rgba(0, 217, 255, 0.1);
+                      box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);
+                      animation: pulse 2s infinite;
+                  }
+                  
+                  @keyframes pulse {
+                      0%, 100% { box-shadow: 0 0 30px rgba(0, 217, 255, 0.3); }
+                      50% { box-shadow: 0 0 60px rgba(0, 217, 255, 0.6); }
+                  }
+                  
+                  .cyber-title {
+                      font-size: 3rem;
+                      font-weight: 900;
+                      text-transform: uppercase;
+                      background: linear-gradient(45deg, #00d9ff, #ff00ff, #00ff41);
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                      animation: titleGlow 3s ease-in-out infinite;
+                  }
+                  
+                  @keyframes titleGlow {
+                      0%, 100% { filter: brightness(1); }
+                      50% { filter: brightness(1.5) drop-shadow(0 0 20px #00d9ff); }
+                  }
+                  
+                  .snake-gallery {
+                      display: grid;
+                      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+                      gap: 30px;
+                      margin: 40px 0;
+                  }
+                  
+                  .snake-card {
+                      background: rgba(13, 17, 23, 0.8);
+                      border: 1px solid #00d9ff;
+                      border-radius: 15px;
+                      padding: 20px;
+                      transition: all 0.3s ease;
+                      position: relative;
+                      overflow: hidden;
+                  }
+                  
+                  .snake-card:hover {
+                      transform: translateY(-10px) scale(1.02);
+                      border-color: #ff00ff;
+                      box-shadow: 0 20px 40px rgba(255, 0, 255, 0.3);
+                  }
+                  
+                  .snake-card::before {
+                      content: '';
+                      position: absolute;
+                      top: -50%;
+                      left: -50%;
+                      width: 200%;
+                      height: 200%;
+                      background: linear-gradient(45deg, transparent, rgba(0, 217, 255, 0.1), transparent);
+                      transform: rotate(45deg);
+                      transition: all 0.5s ease;
+                      opacity: 0;
+                  }
+                  
+                  .snake-card:hover::before {
+                      opacity: 1;
+                      animation: shimmer 1s ease;
+                  }
+                  
+                  @keyframes shimmer {
+                      0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+                      100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+                  }
+                  
+                  .snake-title {
+                      color: #00ff41;
+                      font-size: 1.2rem;
+                      margin-bottom: 15px;
+                      text-transform: uppercase;
+                      letter-spacing: 2px;
+                  }
+                  
+                  .snake-image {
+                      width: 100%;
+                      height: auto;
+                      border-radius: 10px;
+                      transition: all 0.3s ease;
+                  }
+                  
+                  .snake-image:hover {
+                      filter: brightness(1.2) saturate(1.3);
+                      transform: scale(1.05);
+                  }
+                  
+                  .cyber-footer {
+                      text-align: center;
+                      padding: 40px;
+                      margin-top: 60px;
+                      border-top: 2px solid #00d9ff;
+                      background: rgba(0, 217, 255, 0.05);
+                  }
+                  
+                  .glitch {
+                      position: relative;
+                      animation: glitch 2s infinite;
+                  }
+                  
+                  @keyframes glitch {
+                      0%, 90%, 100% { transform: translate(0); }
+                      20% { transform: translate(-2px, 2px); }
+                      40% { transform: translate(-2px, -2px); }
+                      60% { transform: translate(2px, 2px); }
+                      80% { transform: translate(2px, -2px); }
+                  }
+              </style>
+          </head>
+          <body>
+              <div class="matrix-bg">
+                  <canvas id="matrixCanvas"></canvas>
+              </div>
+              
+              <div class="container">
+                  <div class="cyber-header">
+                      <h1 class="cyber-title glitch">🐍 CYBER SNAKE MATRIX 🤖</h1>
+                      <p style="font-size: 1.2rem; margin-top: 15px;">
+                          ⚡ JAYESH'S CONTRIBUTION SNAKE ARMY ⚡
+                      </p>
+                  </div>
+                  
+                  <div class="snake-gallery">
+                      <div class="snake-card">
+                          <h3 class="snake-title">🌟 Classic Cyber Snake</h3>
+                          <img src="../cyber-snake-dark.svg" alt="Cyber Snake Dark" class="snake-image">
+                      </div>
+                      
+                      <div class="snake-card">
+                          <h3 class="snake-title">🟢 Matrix Hacker Snake</h3>
+                          <img src="../cyber-snake-matrix.svg" alt="Matrix Snake" class="snake-image">
+                      </div>
+                      
+                      <div class="snake-card">
+                          <h3 class="snake-title">🌈 Rainbow Cyber Snake</h3>
+                          <img src="../cyber-snake-rainbow.svg" alt="Rainbow Snake" class="snake-image">
+                      </div>
+                      
+                      <div class="snake-card">
+                          <h3 class="snake-title">💜 Neon Cyberpunk Snake</h3>
+                          <img src="../cyber-snake-cyberpunk.svg" alt="Cyberpunk Snake" class="snake-image">
+                      </div>
+                      
+                      <div class="snake-card">
+                          <h3 class="snake-title">⚡ Ultimate Animated Snake</h3>
+                          <img src="../cyber-snake-ultimate.gif" alt="Ultimate Snake" class="snake-image">
+                      </div>
+                      
+                      <div class="snake-card">
+                          <h3 class="snake-title">👨‍💻 Hacker Mode Snake</h3>
+                          <img src="../cyber-snake-hacker.gif" alt="Hacker Snake" class="snake-image">
+                      </div>
+                  </div>
+                  
+                  <div class="cyber-footer">
+                      <p style="font-size: 1.5rem; color: #00ff41;">
+                          🚀 POWERED BY JAYESH'S CODING MATRIX 🚀
+                      </p>
+                      <p style="margin-top: 10px; color: #8e75b2;">
+                          Generated with 💜 by GitHub Actions Cyberpunk Protocol
+                      </p>
+                  </div>
+              </div>
+              
+              <script>
+                  // Matrix Rain Effect
+                  const canvas = document.getElementById('matrixCanvas');
+                  const ctx = canvas.getContext('2d');
+                  
+                  canvas.width = window.innerWidth;
+                  canvas.height = window.innerHeight;
+                  
+                  const matrix = "JAYESH NIKAM CYBER SNAKE 01010101 ✦ ★ ▲ ◆ ● ♦ ◊ ◈ ◇ ◯ ◎ ⬢ ⬡ ⬟ ⬠ ⬜ ⬛";
+                  const matrixArray = matrix.split("");
+                  
+                  const fontSize = 14;
+                  const columns = canvas.width / fontSize;
+                  
+                  const drops = [];
+                  for(let x = 0; x < columns; x++) {
+                      drops[x] = 1;
+                  }
+                  
+                  function draw() {
+                      ctx.fillStyle = 'rgba(0, 0, 0, 0.04)';
+                      ctx.fillRect(0, 0, canvas.width, canvas.height);
+                      
+                      ctx.fillStyle = '#00ff41';
+                      ctx.font = fontSize + 'px monospace';
+                      
+                      for(let i = 0; i < drops.length; i++) {
+                          const text = matrixArray[Math.floor(Math.random() * matrixArray.length)];
+                          ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+                          
+                          if(drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+                              drops[i] = 0;
+                          }
+                          drops[i]++;
+                      }
+                  }
+                  
+                  setInterval(draw, 50);
+                  
+                  window.addEventListener('resize', function() {
+                      canvas.width = window.innerWidth;
+                      canvas.height = window.innerHeight;
+                  });
+              </script>
+          </body>
+          </html>
+          EOF
+      
+      - name: 🎯 CREATE CYBER SNAKE README SHOWCASE
+        run: |
+          cat > dist/CYBER_SNAKE_README.md << 'EOF'
+          # 🐍 ULTIMATE CYBER SNAKE COLLECTION 🤖
           
-      # Push the generated files to the output branch
-      - name: Push generated files to output branch
+          ```ascii
+          ┌─────────────────────────────────────────────────────────────────┐
+          │  ███████╗██╗   ██╗██████╗ ███████╗██████╗     ███████╗███╗   ██╗│
+          │  ██╔════╝██║   ██║██╔══██╗██╔════╝██╔══██╗    ██╔════╝████╗  ██║│
+          │  ███████╗██║   ██║██████╔╝█████╗  ██████╔╝    ███████╗██╔██╗ ██║│
+          │  ╚════██║██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗    ╚════██║██║╚██╗██║│
+          │  ███████║╚██████╔╝██║     ███████╗██║  ██║    ███████║██║ ╚████║│
+          │  ╚══════╝ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═══╝│
+          └─────────────────────────────────────────────────────────────────┘
+          ```
+          
+          ## 🎮 SNAKE VARIANTS AVAILABLE:
+          
+          ### 🌟 **CLASSIC CYBER SNAKE**
+          ![Classic Cyber Snake](cyber-snake-dark.svg)
+          
+          ### 🟢 **MATRIX HACKER SNAKE** 
+          ![Matrix Snake](cyber-snake-matrix.svg)
+          
+          ### 🌈 **RAINBOW CYBER SNAKE**
+          ![Rainbow Snake](cyber-snake-rainbow.svg)
+          
+          ### 💜 **NEON CYBERPUNK SNAKE**
+          ![Cyberpunk Snake](cyber-snake-cyberpunk.svg)
+          
+          ### ⚡ **ULTIMATE ANIMATED SNAKE**
+          ![Ultimate Snake](cyber-snake-ultimate.gif)
+          
+          ### 👨‍💻 **HACKER MODE SNAKE**
+          ![Hacker Snake](cyber-snake-hacker.gif)
+          
+          ## 🚀 USAGE IN YOUR README:
+          
+          ```markdown
+          <!-- Choose your favorite snake! -->
+          ![Snake animation](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-dark.svg)
+          ![Matrix Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-matrix.svg)
+          ![Rainbow Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-rainbow.svg)
+          ![Cyberpunk Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-cyberpunk.svg)
+          ![Ultimate Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-ultimate.gif)
+          ![Hacker Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-hacker.gif)
+          ```
+          
+          ---
+          
+          **🤖 Generated by JAYESH'S CYBER SNAKE MATRIX PROTOCOL 🤖**
+          EOF
+      
+      - name: 🎪 DEPLOY ULTIMATE CYBER SNAKE MATRIX
         uses: crazy-max/ghaction-github-pages@v4.0.0
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 🎉 CYBER SNAKE DEPLOYMENT COMPLETE
+        run: |
+          echo "🚀════════════════════════════════════════════════════════════🚀"
+          echo "🤖 CYBER SNAKE MATRIX DEPLOYMENT: ✅ SUCCESSFUL"
+          echo "🐍 TOTAL SNAKES GENERATED: 8 VARIANTS"
+          echo "⚡ MATRIX PROTOCOL: ACTIVATED"
+          echo "🌟 SHOWCASE PAGE: DEPLOYED"
+          echo "🎯 READY TO DOMINATE GITHUB: TRUE"
+          echo "🚀════════════════════════════════════════════════════════════🚀"
+          echo ""
+          echo "🔗 Access your CYBER SNAKES at:"
+          echo "   📄 Main: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-dark.svg"
+          echo "   🟢 Matrix: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-matrix.svg"
+          echo "   🌈 Rainbow: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-rainbow.svg"
+          echo "   💜 Cyberpunk: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-cyberpunk.svg"
+          echo "   ⚡ Ultimate: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-ultimate.gif"
+          echo "   👨‍💻 Hacker: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-hacker.gif"
+          echo ""
+          echo "🎪 Full Showcase: https://jaynikam2005.github.io/jaynikam2005/showcase/"

@@ -210,7 +210,17 @@ const jayesh = {
 </p>
 
 ### 🐍 Contribution Snake
-![Snake animation](https://github.com/jaynikam2005/jaynikam2005/blob/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-dark.svg)
+
+<!-- Matrix Hacker Snake -->
+![Matrix Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-matrix.svg)
+
+<!-- Rainbow Cyber Snake -->
+![Rainbow Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-rainbow.svg)
+
+<!-- Ultimate Animated Snake -->
+![Ultimate Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-ultimate.gif)
+
 
 ### 🏆 GitHub Trophies
 <p align="center">

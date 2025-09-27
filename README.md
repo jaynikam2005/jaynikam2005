@@ -53,7 +53,7 @@ const jayesh = {
         tools: ["Git", "VS Code", "Postman", "Figma"]
     },
     currentProjects: [
-        "🎓 Edviron - Education Management Platform",
+        "🎓 Edviron - School Payment Platform",
         "🤖 AI Customer Support Chatbot",
         "📄 AI Resume & Job Matcher",
         "🎮 MAGE - Multi-Agent Game Tester"
@@ -125,7 +125,7 @@ const jayesh = {
 
 </div>
 
-### 🎓 Edviron - Education Management Platform
+### 🎓 Edviron - School Payment Platform
 > **Full-Stack Education Technology Solution**
 
 - 🏗️ **Architecture**: NestJS Backend + React Frontend + MongoDB

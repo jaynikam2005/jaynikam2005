@@ -309,7 +309,7 @@ I'm always excited to connect with fellow developers, entrepreneurs, and tech en
 ### 🌟 "Code is like humor. When you have to explain it, it's bad." - Cory House
 
 <!-- Footer Wave Animation -->
-<img src="assets/footer.gif" width="100%" height="100" alt="Footer Wave Animation"/>
+<img src="assets/footer.gif" width="100%" height="400" alt="Footer Wave Animation"/>
 
 **Thanks for visiting my profile! Let's build something amazing together! 🚀**
 

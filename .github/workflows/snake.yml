@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     
     steps:
       - name: 🚀 INITIALIZING CYBER MATRIX...
@@ -27,340 +27,18 @@ jobs:
         with:
           fetch-depth: 0
       
-      - name: 🎮 GENERATE ULTIMATE CYBER SNAKE ANIMATIONS
+      - name: 🎮 GENERATE CYBER SNAKE ANIMATION
         uses: Platane/snk@v3
         with:
           github_user_name: jaynikam2005
           outputs: |
-            dist/cyber-snake-light.svg?palette=github&background_color=f6f8fa&color_snake=0969da&color_dots=656d76,8cc665,ffdf5d,fd8c73,ec6547
-            dist/cyber-snake-dark.svg?palette=github-dark&background_color=0d1117&color_snake=00d9ff&color_dots=8e75b2,00ff41,ffd700,ff6b6b,4ecdc4
-            dist/cyber-snake-neon.svg?palette=github-dark&background_color=0a0015&color_snake=ff00ff&color_dots=ff0080,8000ff,ff00ff,00ffff,ffff00,ff4000
-            dist/cyber-snake-matrix.svg?palette=github-dark&background_color=001100&color_snake=00ff41&color_dots=39ff14,32cd32,228b22,006400,004d00
-            dist/cyber-snake-cyberpunk.svg?palette=github-dark&background_color=0f0f23&color_snake=00d9ff&color_dots=ff00ff,00ffff,ffff00,ff0080,8e75b2,00ff41
-            dist/cyber-snake-rainbow.svg?palette=github-dark&background_color=1a0033&color_snake=ff69b4&color_dots=ff0000,ff4500,ffa500,ffff00,adff2f,00ff7f,00bfff,4169e1,8a2be2,ff1493
-            dist/cyber-snake-retro.svg?palette=github-dark&background_color=2d0845&color_snake=ff6ec7&color_dots=ff6ec7,39ddc0,f706cf,ffde59,ff8906,7209b7
-            dist/cyber-snake-quantum.svg?palette=github-dark&background_color=0c0c0c&color_snake=7fffd4&color_dots=7fffd4,ff7f50,da70d6,32cd32,ff6347,4169e1
-            dist/cyber-snake-hacker.gif?palette=github-dark&background_color=0d1117&color_snake=00ff41&color_dots=39ff14,32cd32,228b22,006400
-            dist/cyber-snake-ultimate.gif?palette=github-dark&background_color=000014&color_snake=00d9ff&color_dots=ff00ff,00ffff,ffff00,ff0080,8e75b2,00ff41
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: 🎨 CREATE CYBERPUNK SHOWCASE FILES
-        run: |
-          # Create showcase directory with proper permissions
-          sudo mkdir -p dist/showcase
-          sudo chown -R $USER:$USER dist/
-          
-          # Create the showcase HTML file
-          cat > dist/showcase/index.html << 'EOF'
-          <!DOCTYPE html>
-          <html lang="en">
-          <head>
-              <meta charset="UTF-8">
-              <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <title>🐍 JAYESH'S CYBER SNAKE MATRIX 🤖</title>
-              <style>
-                  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
-                  
-                  * { margin: 0; padding: 0; box-sizing: border-box; }
-                  
-                  body {
-                      background: linear-gradient(45deg, #0a0a0a, #1a1a2e, #16213e, #0f3460);
-                      background-size: 400% 400%;
-                      animation: gradientShift 8s ease infinite;
-                      font-family: 'Orbitron', monospace;
-                      color: #00d9ff;
-                      min-height: 100vh;
-                      overflow-x: hidden;
-                  }
-                  
-                  @keyframes gradientShift {
-                      0% { background-position: 0% 50%; }
-                      50% { background-position: 100% 50%; }
-                      100% { background-position: 0% 50%; }
-                  }
-                  
-                  .container {
-                      max-width: 1400px;
-                      margin: 0 auto;
-                      padding: 20px;
-                      position: relative;
-                      z-index: 1;
-                  }
-                  
-                  .cyber-header {
-                      text-align: center;
-                      margin-bottom: 50px;
-                      padding: 30px;
-                      border: 2px solid #00d9ff;
-                      border-radius: 15px;
-                      background: rgba(0, 217, 255, 0.1);
-                      box-shadow: 0 0 30px rgba(0, 217, 255, 0.3);
-                      animation: pulse 2s infinite;
-                  }
-                  
-                  @keyframes pulse {
-                      0%, 100% { box-shadow: 0 0 30px rgba(0, 217, 255, 0.3); }
-                      50% { box-shadow: 0 0 60px rgba(0, 217, 255, 0.6); }
-                  }
-                  
-                  .cyber-title {
-                      font-size: 3rem;
-                      font-weight: 900;
-                      text-transform: uppercase;
-                      background: linear-gradient(45deg, #00d9ff, #ff00ff, #00ff41);
-                      -webkit-background-clip: text;
-                      -webkit-text-fill-color: transparent;
-                      animation: titleGlow 3s ease-in-out infinite;
-                  }
-                  
-                  @keyframes titleGlow {
-                      0%, 100% { filter: brightness(1); }
-                      50% { filter: brightness(1.5) drop-shadow(0 0 20px #00d9ff); }
-                  }
-                  
-                  .snake-gallery {
-                      display: grid;
-                      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-                      gap: 25px;
-                      margin: 40px 0;
-                  }
-                  
-                  .snake-card {
-                      background: rgba(13, 17, 23, 0.9);
-                      border: 2px solid;
-                      border-radius: 15px;
-                      padding: 20px;
-                      transition: all 0.3s ease;
-                      position: relative;
-                      overflow: hidden;
-                  }
-                  
-                  .snake-card.cyberpunk { border-color: #00d9ff; }
-                  .snake-card.matrix { border-color: #00ff41; }
-                  .snake-card.neon { border-color: #ff00ff; }
-                  .snake-card.rainbow { border-color: #ff69b4; }
-                  .snake-card.retro { border-color: #ff6ec7; }
-                  .snake-card.quantum { border-color: #7fffd4; }
-                  .snake-card.ultimate { border-color: #00d9ff; }
-                  .snake-card.hacker { border-color: #39ff14; }
-                  
-                  .snake-card:hover {
-                      transform: translateY(-10px) scale(1.02);
-                      box-shadow: 0 20px 40px rgba(255, 0, 255, 0.3);
-                  }
-                  
-                  .snake-card.cyberpunk:hover { box-shadow: 0 20px 40px rgba(0, 217, 255, 0.4); }
-                  .snake-card.matrix:hover { box-shadow: 0 20px 40px rgba(0, 255, 65, 0.4); }
-                  .snake-card.neon:hover { box-shadow: 0 20px 40px rgba(255, 0, 255, 0.4); }
-                  .snake-card.rainbow:hover { box-shadow: 0 20px 40px rgba(255, 105, 180, 0.4); }
-                  .snake-card.retro:hover { box-shadow: 0 20px 40px rgba(255, 110, 199, 0.4); }
-                  .snake-card.quantum:hover { box-shadow: 0 20px 40px rgba(127, 255, 212, 0.4); }
-                  
-                  .snake-title {
-                      font-size: 1.1rem;
-                      margin-bottom: 15px;
-                      text-transform: uppercase;
-                      letter-spacing: 1px;
-                      font-weight: bold;
-                  }
-                  
-                  .snake-title.cyberpunk { color: #00d9ff; }
-                  .snake-title.matrix { color: #00ff41; }
-                  .snake-title.neon { color: #ff00ff; }
-                  .snake-title.rainbow { color: #ff69b4; }
-                  .snake-title.retro { color: #ff6ec7; }
-                  .snake-title.quantum { color: #7fffd4; }
-                  .snake-title.ultimate { color: #00d9ff; }
-                  .snake-title.hacker { color: #39ff14; }
-                  
-                  .snake-image {
-                      width: 100%;
-                      height: auto;
-                      border-radius: 10px;
-                      transition: all 0.3s ease;
-                  }
-                  
-                  .snake-image:hover {
-                      filter: brightness(1.2) saturate(1.3);
-                      transform: scale(1.03);
-                  }
-                  
-                  .cyber-footer {
-                      text-align: center;
-                      padding: 40px;
-                      margin-top: 60px;
-                      border-top: 2px solid #00d9ff;
-                      background: rgba(0, 217, 255, 0.05);
-                  }
-                  
-                  .theme-description {
-                      font-size: 0.85rem;
-                      opacity: 0.8;
-                      margin-top: 8px;
-                      line-height: 1.3;
-                  }
-              </style>
-          </head>
-          <body>
-              <div class="container">
-                  <div class="cyber-header">
-                      <h1 class="cyber-title">🐍 CYBER SNAKE MATRIX 🤖</h1>
-                      <p style="font-size: 1.2rem; margin-top: 15px;">
-                          ⚡ JAYESH'S ULTIMATE CONTRIBUTION SNAKE ARMY ⚡
-                      </p>
-                  </div>
-                  
-                  <div class="snake-gallery">
-                      <div class="snake-card cyberpunk">
-                          <h3 class="snake-title cyberpunk">🌟 CYBERPUNK NEXUS</h3>
-                          <div class="theme-description">Electric blue snake with cyber aesthetics</div>
-                          <img src="../cyber-snake-dark.svg" alt="Cyberpunk Snake" class="snake-image">
-                      </div>
-                      
-                      <div class="snake-card matrix">
-                          <h3 class="snake-title matrix">🟢 MATRIX HACKER</h3>
-                          <div class="theme-description">Green matrix code rain theme</div>
-                          <img src="../cyber-snake-matrix.svg" alt="Matrix Snake" class="snake-image">
-                      </div>
-                      
-                      <div class="snake-card neon">
-                          <h3 class="snake-title neon">💜 NEON DREAMS</h3>
-                          <div class="theme-description">Purple neon lights & electric vibes</div>
-                          <img src="../cyber-snake-neon.svg" alt="Neon Snake" class="snake-image">
-                      </div>
-                      
-                      <div class="snake-card rainbow">
-                          <h3 class="snake-title rainbow">🌈 RAINBOW PRISM</h3>
-                          <div class="theme-description">Full spectrum rainbow colors</div>
-                          <img src="../cyber-snake-rainbow.svg" alt="Rainbow Snake" class="snake-image">
-                      </div>
-                      
-                      <div class="snake-card retro">
-                          <h3 class="snake-title retro">🎮 RETRO WAVE</h3>
-                          <div class="theme-description">80s synthwave aesthetic</div>
-                          <img src="../cyber-snake-retro.svg" alt="Retro Snake" class="snake-image">
-                      </div>
-                      
-                      <div class="snake-card quantum">
-                          <h3 class="snake-title quantum">⚛️ QUANTUM FIELD</h3>
-                          <div class="theme-description">Aquamarine quantum energy</div>
-                          <img src="../cyber-snake-quantum.svg" alt="Quantum Snake" class="snake-image">
-                      </div>
-                      
-                      <div class="snake-card ultimate">
-                          <h3 class="snake-title ultimate">⚡ ULTIMATE POWER</h3>
-                          <div class="theme-description">Animated ultimate snake (GIF)</div>
-                          <img src="../cyber-snake-ultimate.gif" alt="Ultimate Snake" class="snake-image">
-                      </div>
-                      
-                      <div class="snake-card hacker">
-                          <h3 class="snake-title hacker">👨‍💻 HACKER MODE</h3>
-                          <div class="theme-description">Animated green hacker (GIF)</div>
-                          <img src="../cyber-snake-hacker.gif" alt="Hacker Snake" class="snake-image">
-                      </div>
-                  </div>
-                  
-                  <div class="cyber-footer">
-                      <p style="font-size: 1.5rem; color: #00ff41;">
-                          🚀 POWERED BY JAYESH'S CODING MATRIX 🚀
-                      </p>
-                      <p style="margin-top: 10px; color: #8e75b2;">
-                          Generated with 💜 by GitHub Actions Cyberpunk Protocol
-                      </p>
-                  </div>
-              </div>
-          </body>
-          </html>
-          EOF
-      
-      - name: 🎯 CREATE CYBER SNAKE README SHOWCASE
-        run: |
-          cat > dist/CYBER_SNAKE_README.md << 'EOF'
-          # 🐍 ULTIMATE CYBER SNAKE COLLECTION 🤖
-          
-          ```ascii
-          ┌─────────────────────────────────────────────────────────────────┐
-          │  ███████╗██╗   ██╗██████╗ ███████╗██████╗     ███████╗███╗   ██╗│
-          │  ██╔════╝██║   ██║██╔══██╗██╔════╝██╔══██╗    ██╔════╝████╗  ██║│
-          │  ███████╗██║   ██║██████╔╝█████╗  ██████╔╝    ███████╗██╔██╗ ██║│
-          │  ╚════██║██║   ██║██╔═══╝ ██╔══╝  ██╔══██╗    ╚════██║██║╚██╗██║│
-          │  ███████║╚██████╔╝██║     ███████╗██║  ██║    ███████║██║ ╚████║│
-          │  ╚══════╝ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝    ╚══════╝╚═╝  ╚═══╝│
-          └─────────────────────────────────────────────────────────────────┘
-          ```
-          
-          ## 🎮 FUTURISTIC SNAKE VARIANTS:
-          
-          ### 🌟 **CYBERPUNK NEXUS** 
-          ![Cyberpunk Snake](cyber-snake-dark.svg)
-          *Electric blue snake with dark cyber background*
-          
-          ### 🟢 **MATRIX HACKER** 
-          ![Matrix Snake](cyber-snake-matrix.svg)  
-          *Green matrix code rain on dark terminal background*
-          
-          ### 💜 **NEON DREAMS**
-          ![Neon Snake](cyber-snake-neon.svg)
-          *Purple neon snake with electric pink accents*
-          
-          ### 🌈 **RAINBOW PRISM**
-          ![Rainbow Snake](cyber-snake-rainbow.svg)
-          *Full spectrum rainbow colors on deep space background*
-          
-          ### 🎮 **RETRO WAVE**
-          ![Retro Snake](cyber-snake-retro.svg)
-          *80s synthwave aesthetic with pink and cyan*
-          
-          ### ⚛️ **QUANTUM FIELD**
-          ![Quantum Snake](cyber-snake-quantum.svg)
-          *Aquamarine quantum energy with multi-color particles*
-          
-          ### ⚡ **ULTIMATE POWER (Animated)**
-          ![Ultimate Snake](cyber-snake-ultimate.gif)
-          *Multi-color animated snake with space background*
-          
-          ### 👨‍💻 **HACKER MODE (Animated)**
-          ![Hacker Snake](cyber-snake-hacker.gif)
-          *Green animated hacker snake on terminal background*
-          
-          ## 🚀 USAGE IN YOUR README:
-          
-          ```markdown
-          <!-- Choose your favorite futuristic snake! -->
-          ![Cyberpunk Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-dark.svg)
-          ![Matrix Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-matrix.svg)
-          ![Neon Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-neon.svg)
-          ![Rainbow Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-rainbow.svg)
-          ![Retro Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-retro.svg)
-          ![Quantum Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-quantum.svg)
-          ![Ultimate Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-ultimate.gif)
-          ![Hacker Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-hacker.gif)
-          ```
-          
-          ## 🎨 THEME DESCRIPTIONS:
-          
-          - **🌟 Cyberpunk Nexus**: Electric blue (#00d9ff) on dark cyber background
-          - **🟢 Matrix Hacker**: Green matrix (#00ff41) on terminal black/green
-          - **💜 Neon Dreams**: Purple/magenta (#ff00ff) on dark void background  
-          - **🌈 Rainbow Prism**: Full spectrum colors on deep space background
-          - **🎮 Retro Wave**: Synthwave pink/cyan on 80s gradient background
-          - **⚛️ Quantum Field**: Aquamarine (#7fffd4) on quantum dark background
-          - **⚡ Ultimate Power**: Multi-color animated with space theme
-          - **👨‍💻 Hacker Mode**: Animated green on classic terminal background
-          
-          ---
-          
-          **🤖 Generated by JAYESH'S CYBER SNAKE MATRIX PROTOCOL 🤖**
-          EOF
-      
       - name: 🎪 DEPLOY CYBER SNAKE FILES
         run: |
-          # List generated files for debugging
-          echo "📂 Generated files:"
-          ls -la dist/
-          echo ""
-          
           # Configure git
           git config --global user.name 'Cyber Snake Bot'
           git config --global user.email 'actions@github.com'
@@ -379,31 +57,21 @@ jobs:
           if git diff --staged --quiet; then
             echo "🤖 No changes detected, snake is already up to date!"
           else
-            git commit -m "🐍 Update Cyber Snake Matrix - $(date '+%Y-%m-%d %H:%M:%S')" || true
+            git commit -m "🐍 Update Snake Animation - $(date '+%Y-%m-%d %H:%M:%S')" || true
             git push origin output --force || true
-            echo "🚀 Cyber Snake Matrix deployed successfully!"
+            echo "🚀 Snake deployed successfully!"
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: 🎉 CYBER SNAKE DEPLOYMENT COMPLETE
+      - name: 🎉 SNAKE DEPLOYMENT COMPLETE
         run: |
           echo "🚀════════════════════════════════════════════════════════════🚀"
-          echo "🤖 CYBER SNAKE MATRIX DEPLOYMENT: ✅ SUCCESSFUL"
-          echo "🐍 TOTAL SNAKES GENERATED: 10 VARIANTS"
-          echo "⚡ MATRIX PROTOCOL: ACTIVATED"
-          echo "🌟 SHOWCASE PAGE: DEPLOYED"
-          echo "🎯 READY TO DOMINATE GITHUB: TRUE"
+          echo "🤖 SNAKE DEPLOYMENT: ✅ SUCCESSFUL"
+          echo "🐍 SNAKE ANIMATION: GENERATED"
+          echo "⚡ READY TO SHOW ON GITHUB: TRUE"
           echo "🚀════════════════════════════════════════════════════════════🚀"
           echo ""
-          echo "🔗 Access your FUTURISTIC CYBER SNAKES at:"
-          echo "   🌟 Cyberpunk: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-dark.svg"
-          echo "   🟢 Matrix: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-matrix.svg"
-          echo "   💜 Neon: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-neon.svg"
-          echo "   🌈 Rainbow: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-rainbow.svg"
-          echo "   🎮 Retro: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-retro.svg"
-          echo "   ⚛️ Quantum: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-quantum.svg"
-          echo "   ⚡ Ultimate: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-ultimate.gif"
-          echo "   👨‍💻 Hacker: https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-hacker.gif"
-          echo ""
-          echo "🎪 Enable GitHub Pages to see the showcase!"
+          echo "🔗 Access your snake at:"
+          echo "   📄 Light: https://github.com/jaynikam2005/jaynikam2005/blob/output/github-contribution-grid-snake.svg"
+          echo "   🌙 Dark: https://github.com/jaynikam2005/jaynikam2005/blob/output/github-contribution-grid-snake-dark.svg"

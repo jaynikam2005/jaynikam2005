@@ -211,15 +211,13 @@ const jayesh = {
 
 ### 🐍 CYBER SNAKE ARMY
 
-<div align="center">
+
 
 <!-- Classic Cyber Snake -->
 ![Snake animation](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-dark.svg)
 
-<!-- Matrix Hacker Snake -->
 
 
-</div>
 
 ### 🏆 GitHub Trophies
 <p align="center">

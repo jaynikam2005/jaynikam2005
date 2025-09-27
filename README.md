@@ -42,7 +42,7 @@
 ## 🌟 About Me
 
 <div align="center">
-  <img src="assets/hacker.gif" width="100%" height="250" alt="Hacker Coding Animation"/>
+  <img src="assets/hacker.gif" width="500" height="250" alt="Hacker Coding Animation"/>
 </div>
 
 ```typescript

@@ -24,9 +24,36 @@
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&lines=Full+Stack+Developer+%F0%9F%9A%80;AI+%26+Machine+Learning+Enthusiast+%F0%9F%A4%96;Building+the+Future+with+Code+%F0%9F%8C%9F;Always+Learning%2C+Always+Growing+%F0%9F%93%88)
 
+<!-- Cyberpunk Banner -->
 <p align="center">
-<img src="./assets/cyberpunk.gif" alt="Cyberpunk Animation" width="auto" height="auto"/>
+  <img src="assets/cyberpunk.gif" width="1200" height="400">
 </p>
+
+<!-- Hacker Section -->
+<p align="center">
+  <img src="assets/hacker.gif" width="600" height="400">
+</p>
+
+<!-- Matrix Divider -->
+<p align="center">
+  <img src="assets/matrix.gif" width="1200" height="200">
+</p>
+
+<!-- Coding Section -->
+<p align="center">
+  <img src="assets/coding.gif" width="500" height="300">
+</p>
+
+<!-- Contact Section -->
+<p align="center">
+  <img src="assets/contact.gif" width="400" height="300">
+</p>
+
+<!-- Footer -->
+<p align="center">
+  <img src="assets/footer.gif" width="1200" height="100">
+</p>
+
 
 [![Profile Views](https://komarev.com/ghpvc/?username=jaynikam2005&color=0e75b6&style=flat)](https://github.com/jaynikam2005)
 [![GitHub followers](https://img.shields.io/github/followers/jaynikam2005?label=Follow&style=social)](https://github.com/jaynikam2005)

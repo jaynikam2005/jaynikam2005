@@ -209,15 +209,6 @@ const jayesh = {
   <img width="48%" src="https://github-readme-activity-graph.vercel.app/graph?username=jaynikam2005&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF" />
 </p>
 
-### 🐍 CYBER SNAKE ARMY
-
-
-
-<!-- Classic Cyber Snake -->
-![Snake animation](https://github.com/jaynikam2005/jaynikam2005/blob/output/github-contribution-grid-snake.gif)
-
-
-
 ### 🏆 GitHub Trophies
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=jaynikam2005&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" />

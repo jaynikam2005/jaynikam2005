@@ -267,7 +267,7 @@ const jayesh = {
 
 ## 🎵 Spotify Playing
 
-[![Spotify](https://novatorem.vercel.app/api/spotify)](https://open.spotify.com/user/your-spotify-username)
+[![Spotify](https://novatorem.vercel.app/api/spotify)](https://open.spotify.com/user/rx3nts0i782ln81p9wuob9dio)
 
 ---
 

@@ -217,20 +217,7 @@ const jayesh = {
 ![Snake animation](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-dark.svg)
 
 <!-- Matrix Hacker Snake -->
-<details>
-<summary>🟢 Click to see more EPIC snakes! 🐍</summary>
 
-![Matrix Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-matrix.svg)
-
-![Rainbow Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-rainbow.svg)
-
-![Cyberpunk Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-cyberpunk.svg)
-
-![Ultimate Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-ultimate.gif)
-
-![Hacker Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-hacker.gif)
-
-</details>
 
 </div>
 

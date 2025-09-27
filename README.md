@@ -19,25 +19,27 @@
    ░ ░          ░ ░         ░               ░                 ░  ░   ░           ░  ░         ░       ░  ░           ░    ░  ░   ░  ░   ░     
    ░                                                                                               ░                                               
 ```
-<!-- Add this to your README for animated background effects -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Jayesh%20Nikam&fontSize=90&fontAlign=70&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20AI%20Enthusiast&descAlign=70&descAlignY=50&animation=fadeIn" />
-</div>
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&lines=Full+Stack+Developer+%F0%9F%9A%80;AI+%26+Machine+Learning+Enthusiast+%F0%9F%A4%96;Building+the+Future+with+Code+%F0%9F%8C%9F;Always+Learning%2C+Always+Growing+%F0%9F%93%88)
+<!-- Enhanced Cyberpunk Header with Custom Colors -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:8E75B2,100:00FF41&height=250&section=header&text=JAYESH%20NIKAM&fontSize=80&fontAlign=50&fontAlignY=40&fontColor=FFFFFF&desc=Full%20Stack%20Developer%20%7C%20AI%20Enthusiast&descAlign=50&descAlignY=60&descSize=20&animation=twinkling" />
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&lines=Building+Tomorrow's+Technology+Today+🚀;AI+%26+Machine+Learning+Innovator+🤖;Full+Stack+Developer+%26+Problem+Solver+💻;Always+Learning%2C+Always+Growing+📈)
+
+<!-- Cyberpunk Divider -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2&section=header" />
 
 <!-- Main Cyberpunk Header Banner - Full Width -->
 <p align="center">
   <img src="assets/cyberpunk.gif" width="100%" alt="Cyberpunk Banner"/>
 </p>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=jaynikam2005&color=0e75b6&style=flat)](https://github.com/jaynikam2005)
-[![GitHub followers](https://img.shields.io/github/followers/jaynikam2005?label=Follow&style=social)](https://github.com/jaynikam2005)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/jaey--here)
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=flat&logo=LeetCode&logoColor=black)](https://leetcode.com/u/jaey__here)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white)](mailto:jaynikam2005@gmail.com)
+[![Profile Views](https://komarev.com/ghpvc/?username=jaynikam2005&color=00D9FF&style=for-the-badge)](https://github.com/jaynikam2005)
+[![GitHub followers](https://img.shields.io/github/followers/jaynikam2005?label=Follow&style=for-the-badge&color=8E75B2)](https://github.com/jaynikam2005)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jaey--here)
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/jaey__here)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jaynikam2005@gmail.com)
 
 </div>
 
@@ -46,7 +48,7 @@
 ## 🌟 About Me
 
 <div align="center">
-  <img src="assets/hacker.gif" width="500" height="250" alt="Hacker Coding Animation"/>
+  <img src="assets/hacker.gif" width="450" height="250" alt="Hacker Coding Animation"/>
 </div>
 
 ```typescript
@@ -75,7 +77,7 @@ const jayesh = {
 
 <!-- Matrix Divider -->
 <div align="center">
-  <img src="assets/matrix.gif" width="100%" height="400" alt="Matrix Code Rain"/>
+  <img src="assets/matrix.gif" width="100%" height="120" alt="Matrix Code Rain"/>
 </div>
 
 ---
@@ -223,7 +225,7 @@ const jayesh = {
 ## 🌟 Current Focus
 
 <div align="center">
-  <img src="assets/coding.gif" width="350" height="200" alt="Coding Animation"/>
+  <img src="assets/coding.gif" width="400" height="220" alt="Coding Animation"/>
 </div>
 
 - 🔭 Working on **Advanced AI Integration** in web applications
@@ -235,14 +237,14 @@ const jayesh = {
 
 ---
 
-## 🎯 2024 Goals
+## 🎯 2025 Goals
 
-- [ ] **Open Source**: Contribute to 10+ major open source projects
-- [ ] **AI/ML**: Build and deploy 5 AI-powered applications
-- [ ] **Learning**: Master advanced system design patterns
-- [ ] **Community**: Mentor 50+ developers through code reviews
-- [ ] **Writing**: Publish technical blogs on AI and web development
-- [ ] **Speaking**: Present at 3 tech conferences/meetups
+- [ ] **Open Source**: Contribute to 15+ major open source projects
+- [ ] **AI/ML**: Build and deploy 8 AI-powered applications
+- [ ] **Learning**: Master advanced system design patterns & cloud architecture
+- [ ] **Community**: Mentor 100+ developers through code reviews
+- [ ] **Writing**: Publish 20+ technical blogs on AI and web development
+- [ ] **Speaking**: Present at 5 tech conferences/meetups
 
 ---
 
@@ -286,7 +288,7 @@ If you like my work and want to support me, you can:
 
 <div align="center">
 
-<img src="assets/contact.gif" width="300" height="200" alt="Contact Animation"/>
+<img src="assets/contact.gif" width="350" height="200" alt="Contact Animation"/>
 
 I'm always excited to connect with fellow developers, entrepreneurs, and tech enthusiasts!
 
@@ -307,7 +309,7 @@ I'm always excited to connect with fellow developers, entrepreneurs, and tech en
 ### 🌟 "Code is like humor. When you have to explain it, it's bad." - Cory House
 
 <!-- Footer Wave Animation -->
-<img src="assets/footer.gif" width="100%" height="400" alt="Footer Wave Animation"/>
+<img src="assets/footer.gif" width="100%" height="100" alt="Footer Wave Animation"/>
 
 **Thanks for visiting my profile! Let's build something amazing together! 🚀**
 

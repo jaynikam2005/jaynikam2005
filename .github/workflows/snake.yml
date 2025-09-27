@@ -18,12 +18,12 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     
     steps:
       # Checkout the repository
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
       # Generate the snake animation
       - name: Generate github-contribution-grid-snake.svg
@@ -33,11 +33,13 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.gif?color_snake=blue&color_dots=orange,yellow,green,aqua,pink
+            dist/github-contribution-grid-snake.gif?color_snake=#00D9FF&color_dots=#8E75B2,#00FF41,#FFD700,#FF6B6B,#4ECDC4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           
       # Push the generated files to the output branch
       - name: Push generated files to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4.0.0
         with:
           target_branch: output
           build_dir: dist

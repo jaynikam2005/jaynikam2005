@@ -71,7 +71,7 @@ const jayesh = {
 
 <!-- Matrix Divider -->
 <div align="center">
-  <img src="assets/matrix.gif" width="100%" height="100" alt="Matrix Code Rain"/>
+  <img src="assets/matrix.gif" width="100%" height="400" alt="Matrix Code Rain"/>
 </div>
 
 ---

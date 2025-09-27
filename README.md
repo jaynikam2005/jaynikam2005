@@ -19,6 +19,10 @@
    ░ ░          ░ ░         ░               ░                 ░  ░   ░           ░  ░         ░       ░  ░           ░    ░  ░   ░  ░   ░     
    ░                                                                                               ░                                               
 ```
+<!-- Add this to your README for animated background effects -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Jayesh%20Nikam&fontSize=90&fontAlign=70&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20AI%20Enthusiast&descAlign=70&descAlignY=50&animation=fadeIn" />
+</div>
 
 <div align="center">
 

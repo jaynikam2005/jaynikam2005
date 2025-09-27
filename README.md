@@ -24,36 +24,10 @@
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&lines=Full+Stack+Developer+%F0%9F%9A%80;AI+%26+Machine+Learning+Enthusiast+%F0%9F%A4%96;Building+the+Future+with+Code+%F0%9F%8C%9F;Always+Learning%2C+Always+Growing+%F0%9F%93%88)
 
-<!-- Cyberpunk Banner -->
+<!-- Main Cyberpunk Header Banner - Full Width -->
 <p align="center">
-  <img src="assets/cyberpunk.gif" width="1200" height="400">
+  <img src="assets/cyberpunk.gif" width="100%" alt="Cyberpunk Banner"/>
 </p>
-
-<!-- Hacker Section -->
-<p align="center">
-  <img src="assets/hacker.gif" width="600" height="400">
-</p>
-
-<!-- Matrix Divider -->
-<p align="center">
-  <img src="assets/matrix.gif" width="1200" height="200">
-</p>
-
-<!-- Coding Section -->
-<p align="center">
-  <img src="assets/coding.gif" width="500" height="300">
-</p>
-
-<!-- Contact Section -->
-<p align="center">
-  <img src="assets/contact.gif" width="400" height="300">
-</p>
-
-<!-- Footer -->
-<p align="center">
-  <img src="assets/footer.gif" width="1200" height="100">
-</p>
-
 
 [![Profile Views](https://komarev.com/ghpvc/?username=jaynikam2005&color=0e75b6&style=flat)](https://github.com/jaynikam2005)
 [![GitHub followers](https://img.shields.io/github/followers/jaynikam2005?label=Follow&style=social)](https://github.com/jaynikam2005)
@@ -66,6 +40,10 @@
 ---
 
 ## 🌟 About Me
+
+<div align="center">
+  <img src="assets/hacker.gif" width="400" height="250" alt="Hacker Coding Animation"/>
+</div>
 
 ```typescript
 const jayesh = {
@@ -90,6 +68,11 @@ const jayesh = {
     funFact: "I debug with console.log and I'm proud of it! 😄"
 };
 ```
+
+<!-- Matrix Divider -->
+<div align="center">
+  <img src="assets/matrix.gif" width="100%" height="100" alt="Matrix Code Rain"/>
+</div>
 
 ---
 
@@ -147,12 +130,6 @@ const jayesh = {
 ---
 
 ## 🚀 Featured Projects
-
-<div align="center">
-
-<img src="./assets/hacker.gif" alt="Hacker Animation" width="60%"/>
-
-</div>
 
 ### 🎓 Edviron - School Payment Platform
 > **Full-Stack Education Technology Solution**
@@ -216,10 +193,6 @@ const jayesh = {
 
 ## 📊 GitHub Analytics
 
-<div align="center">
-
-<img src="./assets/matrix.gif" alt="Matrix Animation" width="100%"/>
-
 <p align="center">
   <img width="48%" src="https://github-readme-stats.vercel.app/api?username=jaynikam2005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=00D9FF&title_color=00D9FF&text_color=FFFFFF" />
   <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=jaynikam2005&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" />
@@ -241,16 +214,12 @@ const jayesh = {
 ### 📈 3D Contribution Graph
 <img src="https://github.com/jaynikam2005/jaynikam2005/blob/main/profile-3d-contrib/profile-gitblock.svg" />
 
-</div>
-
 ---
 
 ## 🌟 Current Focus
 
 <div align="center">
-
-<img src="./assets/coding.gif" alt="Coding Animation" width="60%"/>
-
+  <img src="assets/coding.gif" width="350" height="200" alt="Coding Animation"/>
 </div>
 
 - 🔭 Working on **Advanced AI Integration** in web applications
@@ -313,7 +282,7 @@ If you like my work and want to support me, you can:
 
 <div align="center">
 
-<img src="./assets/contact.gif" alt="Contact Animation" width="50%"/>
+<img src="assets/contact.gif" width="300" height="200" alt="Contact Animation"/>
 
 I'm always excited to connect with fellow developers, entrepreneurs, and tech enthusiasts!
 
@@ -333,7 +302,8 @@ I'm always excited to connect with fellow developers, entrepreneurs, and tech en
 
 ### 🌟 "Code is like humor. When you have to explain it, it's bad." - Cory House
 
-<img src="./assets/footer.gif" alt="Footer Animation" width="100%"/>
+<!-- Footer Wave Animation -->
+<img src="assets/footer.gif" width="100%" height="80" alt="Footer Wave Animation"/>
 
 **Thanks for visiting my profile! Let's build something amazing together! 🚀**
 

@@ -22,7 +22,7 @@
 
 <div align="center">
 
-<!-- Enhanced Cyberpunk Header with Custom Colors -->
+<!-- Enhanced Cyberpunk Header -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:8E75B2,100:00FF41&height=250&section=header&text=JAYESH%20NIKAM&fontSize=80&fontAlign=50&fontAlignY=40&fontColor=FFFFFF&desc=Full%20Stack%20Developer%20%7C%20AI%20Enthusiast&descAlign=50&descAlignY=60&descSize=20&animation=twinkling" />
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&lines=Building+Tomorrow's+Technology+Today+🚀;AI+%26+Machine+Learning+Innovator+🤖;Full+Stack+Developer+%26+Problem+Solver+💻;Always+Learning%2C+Always+Growing+📈)
@@ -30,7 +30,7 @@
 <!-- Cyberpunk Divider -->
 <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2&section=header" />
 
-<!-- Main Cyberpunk Header Banner - Full Width -->
+<!-- Main Cyberpunk Header Banner -->
 <p align="center">
   <img src="assets/cyberpunk.gif" width="100%" alt="Cyberpunk Banner"/>
 </p>
@@ -209,18 +209,30 @@ const jayesh = {
   <img width="48%" src="https://github-readme-activity-graph.vercel.app/graph?username=jaynikam2005&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF" />
 </p>
 
-### 🐍 Contribution Snake
+### 🐍 CYBER SNAKE ARMY
+
+<div align="center">
+
+<!-- Classic Cyber Snake -->
 ![Snake animation](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-dark.svg)
 
 <!-- Matrix Hacker Snake -->
+<details>
+<summary>🟢 Click to see more EPIC snakes! 🐍</summary>
+
 ![Matrix Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-matrix.svg)
 
-<!-- Rainbow Cyber Snake -->
 ![Rainbow Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-rainbow.svg)
 
-<!-- Ultimate Animated Snake -->
+![Cyberpunk Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-cyberpunk.svg)
+
 ![Ultimate Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-ultimate.gif)
 
+![Hacker Snake](https://github.com/jaynikam2005/jaynikam2005/blob/output/cyber-snake-hacker.gif)
+
+</details>
+
+</div>
 
 ### 🏆 GitHub Trophies
 <p align="center">
@@ -286,8 +298,8 @@ If you like my work and want to support me, you can:
 [![PayPal](https://img.shields.io/badge/-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/jaynikam2005)
 [![GitHub Sponsors](https://img.shields.io/badge/-GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/jaynikam2005)
 
-⭐ **Star my repositories** if you find them useful!
-🍴 **Fork and contribute** to my open source projects!
+⭐ **Star my repositories** if you find them useful!  
+🍴 **Fork and contribute** to my open source projects!  
 📢 **Share my work** with your network!
 
 </div>
@@ -319,7 +331,7 @@ I'm always excited to connect with fellow developers, entrepreneurs, and tech en
 ### 🌟 "Code is like humor. When you have to explain it, it's bad." - Cory House
 
 <!-- Footer Wave Animation -->
-<img src="assets/footer.gif" width="100%" height="400" alt="Footer Wave Animation"/>
+<img src="assets/footer.gif" width="100%" height="100" alt="Footer Wave Animation"/>
 
 **Thanks for visiting my profile! Let's build something amazing together! 🚀**
 

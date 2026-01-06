@@ -1,323 +1,176 @@
-# 🌟 Welcome to My Digital Universe 🌟
-
-``` 
-   ██╗  █████╗  ██╗   ██╗ ███████╗ ███████╗  ██╗  ██╗   ███╗   ██╗ ██╗ ██╗ ██╗   █████╗  ███╗   ███╗
-   ██║ ██╔══██╗ ╚██╗ ██╔╝ ██╔════╝ ██╔════╝  ██║  ██║   ████╗  ██║ ██║ ██║ ██╔╝ ██╔══██╗ ████╗ ████║
-   ██║ ███████║  ╚████╔╝  █████╗   ███████╗  ███████║   ██╔██╗ ██║ ██║ █████╔╝  ███████║ ██╔████╔██║
-██╗██║ ██╔══██║   ╚██╔╝   ██╔══╝   ╚════██║  ██╔══██║   ██║╚██╗██║ ██║ ██╔═██╗  ██╔══██║ ██║╚██╔╝██║
-█████╔ ██║  ██║    ██║    ███████╗ ███████║  ██║  ██║   ██║ ╚████║ ██║ ██║ ██╗  ██║  ██║ ██║ ╚═╝ ██║                                                                                ╚════  ╚═╝  ╚═╝    ╚═╝    ╚══════╝ ╚══════╝  ╚═╝  ╚═╝   ╚═╝  ╚═══╝ ╚═╝ ╚═╝ ╚═╝  ╚═╝  ╚═╝ ╚═╝     ╚═╝
-
-           _____________________________________________________
-          /                                                     /
-         /       "It works on my machine ¯\_(ツ)_/¯"          /
-        /                                                     /
-       /____________________________________________________/
-               ||                                    
-               ||     ,_____,   
-               ||    /       \    
-          (\__/)||   | ◔_◔  |     
-           )  ( ||   |  |_  |     < debug with console.log? hold my coffee! >
-          /    \||   |     |     
-          |  |\ ||   |  || |   
-     _____|  |_\||___|  ||_|___
-    /     |  |        |  |     \
-   /      |  |        |  |      \
-  /       |  |        |  |       \
- /_______________________________|_\
- 
-    < COMPUTER ENGINEER | PROBLEM SOLVER | INNOVATOR >
-```
-
-<div align="center">
-
-<!-- Enhanced Cyberpunk Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:8E75B2,100:00FF41&height=250&section=header&text=JAYESH%20NIKAM&fontSize=80&fontAlign=50&fontAlignY=40&fontColor=FFFFFF&desc=Full%20Stack%20Developer%20%7C%20AI%20Enthusiast&descAlign=50&descAlignY=60&descSize=20&animation=twinkling" />
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00D9FF&center=true&vCenter=true&width=1000&lines=Building+Tomorrow's+Technology+Today+🚀;AI+%26+Machine+Learning+Innovator+🤖;Full+Stack+Developer+%26+Problem+Solver+💻;Always+Learning%2C+Always+Growing+📈)
-
-<!-- Cyberpunk Divider -->
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=12&height=2&section=header" />
-
-<!-- Main Cyberpunk Header Banner -->
-<p align="center">
-  <img src="assets/cyberpunk.gif" width="100%" alt="Cyberpunk Banner"/>
-</p>
-
-[![Profile Views](https://komarev.com/ghpvc/?username=jaynikam2005&color=00D9FF&style=for-the-badge)](https://github.com/jaynikam2005)
-[![GitHub followers](https://img.shields.io/github/followers/jaynikam2005?label=Follow&style=for-the-badge&color=8E75B2)](https://github.com/jaynikam2005)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jaey--here)
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=black)](https://leetcode.com/u/jaey__here)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jaynikam2005@gmail.com)
-
-</div>
+# Jayesh Nikam  
+**Aspiring Data Engineer | Batch & Streaming Data Systems | AI-Ready Data Platforms**
 
 ---
 
-## 🌟 About Me
+## 👋 About Me
 
-<div align="center">
-  <img src="assets/hacker.gif" width="450" height="250" alt="Hacker Coding Animation"/>
-</div>
+I am a **Computer Engineering student (Class of 2026)** actively training as a **Data Engineer**, focused on building **production-grade data systems** rather than toy projects.
 
-```typescript
-const jayesh = {
-    location: "India 🇮🇳",
-    role: "Full Stack Developer & AI Enthusiast",
-    code: ["JavaScript", "TypeScript", "Python", "Java", "SQL"],
-    askMeAbout: ["web dev", "AI/ML", "system design", "algorithms"],
-    technologies: {
-        frontend: ["React", "Next.js", "Vue.js", "TypeScript", "Tailwind CSS"],
-        backend: ["Node.js", "NestJS", "Spring Boot", "FastAPI", "Express"],
-        databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
-        ai_ml: ["Python", "TensorFlow", "Gemini AI", "Machine Learning"],
-        devOps: ["Docker", "AWS", "Vercel", "Railway", "GitHub Actions"],
-        tools: ["Git", "VS Code", "Postman", "Figma"]
-    },
-    currentProjects: [
-        "🎓 Edviron - School Payment Platform",
-        "🤖 AI Customer Support Chatbot",
-        "📄 AI Resume & Job Matcher",
-        "🎮 MAGE - Multi-Agent Game Tester"
-    ],
-    funFact: "I debug with console.log and I'm proud of it! 😄"
-};
-```
+My learning and work are centered around:
+- Designing **scalable batch and streaming pipelines**
+- Building **analytics-ready data warehouses**
+- Engineering **AI-ready data platforms** (feature pipelines, vector ingestion, RAG support)
+- Understanding **system design trade-offs, failures, and cost-performance decisions**
 
-<!-- Matrix Divider -->
-<div align="center">
-  <img src="assets/matrix.gif" width="100%" height="120" alt="Matrix Code Rain"/>
-</div>
+I care deeply about **how data systems behave in production**, not just how tools work in isolation.
 
 ---
 
-## 🔥 Tech Stack & Tools
+## 🎯 Current Focus (2026–2027)
 
-<div align="center">
-
-### 💻 Languages
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-### 🎨 Frontend
-![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-
-### ⚡ Backend
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Express.js](https://img.shields.io/badge/-Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-
-### 🗄️ Databases
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-
-### 🤖 AI/ML
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Gemini AI](https://img.shields.io/badge/-Gemini_AI-8E75B2?style=for-the-badge&logo=google&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/-Machine_Learning-01D277?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-### ☁️ DevOps & Cloud
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Railway](https://img.shields.io/badge/-Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-### 🛠️ Tools
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-
-</div>
+- Building **end-to-end data platforms** using Python, SQL, Spark, Kafka, and AWS  
+- Strengthening **data engineering system design** (batch, streaming, cloud-native)
+- Learning **AI-first data engineering** (feature pipelines, vector databases, LLM ingestion)
+- Preparing for **entry-level Data Engineer / Data Platform Engineer roles**
 
 ---
 
-## 🚀 Featured Projects
+## 🧠 Core Skill Set (Focused & Honest)
 
-### 🎓 Edviron - School Payment Platform
-> **Full-Stack Education Technology Solution**
+### Programming & Querying
+- Python (data pipelines, ETL, validation)
+- SQL (analytics queries, window functions, modeling)
 
-- 🏗️ **Architecture**: NestJS Backend + React Frontend + MongoDB
-- 💳 **Features**: Payment Integration, JWT Authentication, Real-time Analytics
-- 🔐 **Security**: Advanced validation, role-based access control
-- 📊 **Analytics**: Transaction tracking, user management dashboard
-- 🚀 **Deployment**: Docker containerized, CI/CD with GitHub Actions
+### Data Engineering
+- Batch processing (ETL, ELT, incremental loads)
+- Streaming fundamentals (event-driven pipelines)
+- Data quality & schema evolution
+- Dimensional modeling (fact & dimension tables)
 
-**Tech Stack**: `NestJS` `React` `TypeScript` `MongoDB` `Docker` `JWT`
+### Big Data & Processing
+- Apache Spark (DataFrames, Spark SQL, partitioning)
+- Performance & scalability fundamentals
 
-[![View Project](https://img.shields.io/badge/-View_Project-00D9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jaynikam2005/edviron)
+### Cloud & Orchestration
+- AWS: S3, IAM, Glue / EMR, Redshift
+- Apache Airflow (DAGs, retries, dependencies)
 
----
+### Analytics Engineering
+- dbt (models, tests, documentation)
 
-### 🤖 AI Customer Support Chatbot
-> **Intelligent Multi-Modal Support System**
+### AI-Ready Data Systems
+- Feature pipeline fundamentals
+- Vector database ingestion concepts
+- RAG-ready data architectures
 
-- 🧠 **AI-Powered**: Gemini AI integration for intelligent responses
-- 🗣️ **Multi-Modal**: Text, voice, and image processing capabilities
-- 🔄 **Real-time**: WebSocket connections for instant communication
-- 📚 **Knowledge Base**: FAQ matching with machine learning
-- 🎨 **Modern UI**: React with Tailwind CSS, responsive design
-
-**Tech Stack**: `Python` `FastAPI` `React` `Gemini AI` `WebSocket` `Docker`
-
-[![View Project](https://img.shields.io/badge/-View_Project-00D9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jaynikam2005/ai-chatbot)
-
----
-
-### 📄 AI Resume & Job Matcher
-> **ML-Powered Career Matching Platform**
-
-- 🎯 **Smart Matching**: AI algorithms for resume-job compatibility
-- 📊 **Analytics**: Detailed matching scores and recommendations
-- 👥 **Dual Interface**: Separate dashboards for candidates and recruiters
-- 🔍 **Advanced Search**: Semantic search with vector embeddings
-- 📈 **Insights**: Career growth recommendations and skill gap analysis
-
-**Tech Stack**: `Next.js` `Spring Boot` `Python` `PostgreSQL` `ML Models`
-
-[![View Project](https://img.shields.io/badge/-View_Project-00D9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jaynikam2005/ai-resume-matcher)
+### Tooling
+- Git & GitHub
+- Docker (basics)
+- Linux / CLI fundamentals
 
 ---
 
-### 🎮 MAGE - Multi-Agent Game Tester
-> **Revolutionary AI Testing Framework**
+## 🚀 Flagship Projects (Production-Style)
 
-- 🤖 **Multi-Agent**: Coordinated AI agents for comprehensive testing
-- 🎯 **Strategy Planning**: Advanced algorithms for test scenario generation
-- 📊 **Analytics**: Detailed performance metrics and reporting
-- 🔄 **Orchestration**: Intelligent task distribution among agents
-- 🚀 **Scalable**: Microservices architecture with Docker
+> These projects are designed to mirror **real data engineering work**, not tutorials.
 
-**Tech Stack**: `Python` `FastAPI` `React` `Docker` `Multi-Agent Systems`
+### 1️⃣ Cloud Batch Data Lake (AWS + Spark)
+**Problem:** Analytics teams need reliable, scalable historical data.
 
-[![View Project](https://img.shields.io/badge/-View_Project-00D9FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jaynikam2005/mage-tester)
+**What I Built**
+- Raw → Clean → Curated data layers on S3  
+- Spark-based batch transformations  
+- Partitioned storage for query efficiency  
+- Data validation & idempotent processing  
 
----
+**Concepts Demonstrated**
+- Batch system design  
+- Schema evolution  
+- Cost vs performance trade-offs  
 
-## 📊 GitHub Analytics
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=jaynikam2005&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&icon_color=00D9FF&title_color=00D9FF&text_color=FFFFFF" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=jaynikam2005&theme=tokyonight&hide_border=true&background=0D1117&stroke=00D9FF&ring=00D9FF&fire=00D9FF&currStreakLabel=00D9FF" />
-</p>
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jaynikam2005&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF" />
-  <img width="48%" src="https://github-readme-activity-graph.vercel.app/graph?username=jaynikam2005&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=00D9FF&line=00D9FF&point=FFFFFF" />
-</p>
-
-### 🏆 GitHub Trophies
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=jaynikam2005&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" />
-</p>
-
-### 📈 3D Contribution Graph
-<img src="https://github.com/jaynikam2005/jaynikam2005/blob/main/profile-3d-contrib/profile-gitblock.svg" />
+🔗 GitHub: *(link coming soon)*
 
 ---
 
-## 🌟 Current Focus
+### 2️⃣ Real-Time Streaming Pipeline (Kafka + Spark)
+**Problem:** Business metrics require near real-time visibility.
 
-<div align="center">
-  <img src="assets/coding.gif" width="400" height="220" alt="Coding Animation"/>
-</div>
+**What I Built**
+- Event producer → Kafka topics  
+- Spark Structured Streaming aggregations  
+- Handling late-arriving & duplicate events  
 
-- 🔭 Working on **Advanced AI Integration** in web applications
-- 🌱 Learning **Microservices Architecture** and **System Design**
-- 👯 Looking to collaborate on **Open Source Projects** and **AI/ML initiatives**
-- 🤝 Seeking opportunities in **Full Stack Development** and **AI Engineering**
-- 💬 Ask me about **React, Node.js, AI/ML, System Design**
-- ⚡ Fun fact: I can debug faster with console.log than with a debugger! 😄
+**Concepts Demonstrated**
+- Event time vs processing time  
+- Exactly-once vs at-least-once semantics  
 
----
-
-## 🎯 2025 Goals
-
-- [ ] **Open Source**: Contribute to 15+ major open source projects
-- [ ] **AI/ML**: Build and deploy 8 AI-powered applications
-- [ ] **Learning**: Master advanced system design patterns & cloud architecture
-- [ ] **Community**: Mentor 100+ developers through code reviews
-- [ ] **Writing**: Publish 20+ technical blogs on AI and web development
-- [ ] **Speaking**: Present at 5 tech conferences/meetups
+🔗 GitHub: *(link coming soon)*
 
 ---
 
-## 📚 Latest Blog Posts
+### 3️⃣ Analytics Warehouse & Metrics Layer (SQL + dbt)
+**Problem:** Analysts need trustworthy, well-modeled data.
 
-<!-- BLOG-POST-LIST:START -->
-- 🚀 Building Scalable Microservices with NestJS and Docker
-- 🤖 Integrating AI into Modern Web Applications
-- 📊 Advanced React Patterns for Large Scale Applications
-- 🔐 Implementing Secure JWT Authentication in NestJS
-- 🎯 System Design: Building Real-time Chat Applications
-<!-- BLOG-POST-LIST:END -->
+**What I Built**
+- Fact & dimension tables  
+- Incremental models  
+- Data tests & documentation  
 
----
+**Concepts Demonstrated**
+- Dimensional modeling  
+- KPI correctness  
+- Analytics engineering practices  
 
-## 🎵 Spotify Playing
-
-[![Spotify](https://novatorem.vercel.app/api/spotify)](https://open.spotify.com/user/rx3nts0i782ln81p9wuob9dio)
-
----
-
-## 💝 Support My Work
-
-<div align="center">
-
-If you like my work and want to support me, you can:
-
-[![Buy Me A Coffee](https://img.shields.io/badge/-Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jaynikam2005)
-[![PayPal](https://img.shields.io/badge/-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/jaynikam2005)
-[![GitHub Sponsors](https://img.shields.io/badge/-GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white)](https://github.com/sponsors/jaynikam2005)
-
-⭐ **Star my repositories** if you find them useful!  
-🍴 **Fork and contribute** to my open source projects!  
-📢 **Share my work** with your network!
-
-</div>
+🔗 GitHub: *(link coming soon)*
 
 ---
 
-## 📞 Let's Connect!
+### 4️⃣ AI-Ready Data Platform (In Progress)
+**Problem:** AI systems fail without high-quality, well-served data.
 
-<div align="center">
+**What I’m Building**
+- Feature ingestion pipelines  
+- Vector embedding storage  
+- RAG-ready data architecture  
 
-<img src="assets/contact.gif" width="350" height="200" alt="Contact Animation"/>
+**Concepts Demonstrated**
+- ML vs data engineering responsibilities  
+- Data freshness & drift awareness  
 
-I'm always excited to connect with fellow developers, entrepreneurs, and tech enthusiasts!
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jaey--here)
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jaynikam2005)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jaynikam2005@gmail.com)
-[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/jaey__here)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://jaynikam.vercel.app)
-[![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/jaynikam2005)
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/jaey__here)
-
-</div>
+🔗 GitHub: *(planned)*
 
 ---
 
-<div align="center">
+## 🧩 System Design Focus
 
-### 🌟 "Code is like humor. When you have to explain it, it's bad." - Cory House
+I actively practice **data engineering system design**, including:
+- Batch vs streaming trade-offs  
+- Failure handling & backfills  
+- Cost-aware cloud architecture  
+- Scaling data pipelines responsibly  
 
-<!-- Footer Wave Animation -->
-<img src="assets/footer.gif" width="100%" height="100" alt="Footer Wave Animation"/>
+I prioritize **clear data flow explanations** over tool-heavy answers.
 
-**Thanks for visiting my profile! Let's build something amazing together! 🚀**
+---
 
-![Wave](https://capsule-render.vercel.app/api?type=waving&color=00D9FF&height=60&section=footer)
+## 📚 Learning Philosophy
 
-</div>
+I follow a strict execution model:
+
+**Course → Documentation → Build → Break → Explain → Repeat**
+
+This ensures:
+- No shallow learning  
+- Strong fundamentals  
+- Interview-ready explanations  
+
+---
+
+## 📈 What I’m Working Toward
+
+- Entry-level **Data Engineer / Data Platform Engineer** roles  
+- Teams building **large-scale data systems**
+- Environments where **engineering rigor matters**
+
+---
+
+## 📫 Connect With Me
+
+- LinkedIn: https://linkedin.com/in/jaey--here  
+- GitHub: https://github.com/jaynikam2005  
+- Email: jaynikam2005@gmail.com  
+
+---
+
+> *“Good data engineering is invisible when it works — and painfully obvious when it doesn’t.”*

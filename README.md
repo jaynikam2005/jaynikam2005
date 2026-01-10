@@ -173,4 +173,4 @@ This ensures:
 
 ---
 
-> *“Good data engineering is invisible when it works — and painfully obvious when it doesn’t.”*
+> *“Good data engineering is invisible when it works and painfully obvious when it doesn’t.”*

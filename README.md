@@ -1,176 +1,101 @@
-# Jayesh Nikam  
-**Aspiring Data Engineer | Batch & Streaming Data Systems | AI-Ready Data Platforms**
+# Hi, I'm Jayesh Nikam 👋
+
+🚀 **Backend Software Engineer (Java | Spring Boot)**  
+Focused on building clean, scalable backend systems with strong fundamentals and real-world engineering practices.
 
 ---
 
-## 👋 About Me
+## 👨‍💻 About Me
 
-I am a **Computer Engineering student (Class of 2026)** actively training as a **Data Engineer**, focused on building **production-grade data systems** rather than toy projects.
+I am a Computer Engineering student preparing for **backend software engineering roles** with a focus on **Java, object-oriented design, REST APIs, and system fundamentals**.
 
-My learning and work are centered around:
-- Designing **scalable batch and streaming pipelines**
-- Building **analytics-ready data warehouses**
-- Engineering **AI-ready data platforms** (feature pipelines, vector ingestion, RAG support)
-- Understanding **system design trade-offs, failures, and cost-performance decisions**
+I approach learning by:
+- Understanding fundamentals before frameworks
+- Writing clean, readable backend code
+- Building small systems end-to-end and improving them iteratively
 
-I care deeply about **how data systems behave in production**, not just how tools work in isolation.
-
----
-
-## 🎯 Current Focus (2026–2027)
-
-- Building **end-to-end data platforms** using Python, SQL, Spark, Kafka, and AWS  
-- Strengthening **data engineering system design** (batch, streaming, cloud-native)
-- Learning **AI-first data engineering** (feature pipelines, vector databases, LLM ingestion)
-- Preparing for **entry-level Data Engineer / Data Platform Engineer roles**
+My goal is to grow into a **reliable backend engineer** who understands how real production systems are designed, built, and maintained.
 
 ---
 
-## 🧠 Core Skill Set (Focused & Honest)
+## 🧠 Current Focus (2026 Track)
 
-### Programming & Querying
-- Python (data pipelines, ETL, validation)
-- SQL (analytics queries, window functions, modeling)
+- Java (core + OOP)
+- Backend development with **Spring Boot**
+- REST API design
+- Databases & SQL
+- Authentication & authorization
+- System design fundamentals
+- AI-enabled backend features (API integration, not ML research)
 
-### Data Engineering
-- Batch processing (ETL, ELT, incremental loads)
-- Streaming fundamentals (event-driven pipelines)
-- Data quality & schema evolution
-- Dimensional modeling (fact & dimension tables)
+---
 
-### Big Data & Processing
-- Apache Spark (DataFrames, Spark SQL, partitioning)
-- Performance & scalability fundamentals
+## 🛠️ Tech Stack
 
-### Cloud & Orchestration
-- AWS: S3, IAM, Glue / EMR, Redshift
-- Apache Airflow (DAGs, retries, dependencies)
+**Backend**
+- Java (Primary)
+- Spring Boot
+- REST APIs
+- JPA / Hibernate
 
-### Analytics Engineering
-- dbt (models, tests, documentation)
+**Databases**
+- PostgreSQL
+- MySQL (basics)
 
-### AI-Ready Data Systems
-- Feature pipeline fundamentals
-- Vector database ingestion concepts
-- RAG-ready data architectures
-
-### Tooling
+**Tools & Practices**
 - Git & GitHub
-- Docker (basics)
-- Linux / CLI fundamentals
+- Maven
+- Linux basics
+- Docker (learning)
+
+**AI Integration**
+- LLM APIs (OpenAI / Gemini)
+- Backend orchestration for AI-powered features
 
 ---
 
-## 🚀 Flagship Projects (Production-Style)
+## 📂 Projects & Code
 
-> These projects are designed to mirror **real data engineering work**, not tutorials.
+This GitHub profile documents my journey of building **backend-focused projects**, starting from strong Java fundamentals and moving toward production-style backend services.
 
-### 1️⃣ Cloud Batch Data Lake (AWS + Spark)
-**Problem:** Analytics teams need reliable, scalable historical data.
+Current work includes:
+- Java basics & OOP practice
+- Backend-oriented class design
+- Clean coding and modular structure
 
-**What I Built**
-- Raw → Clean → Curated data layers on S3  
-- Spark-based batch transformations  
-- Partitioned storage for query efficiency  
-- Data validation & idempotent processing  
-
-**Concepts Demonstrated**
-- Batch system design  
-- Schema evolution  
-- Cost vs performance trade-offs  
-
-🔗 GitHub: *(link coming soon)*
+Upcoming projects:
+- Spring Boot REST API with authentication
+- Database-backed backend services
+- Scalable backend features
+- AI-powered backend endpoints
 
 ---
 
-### 2️⃣ Real-Time Streaming Pipeline (Kafka + Spark)
-**Problem:** Business metrics require near real-time visibility.
+## 📌 Learning & Experience
 
-**What I Built**
-- Event producer → Kafka topics  
-- Spark Structured Streaming aggregations  
-- Handling late-arriving & duplicate events  
+Before fully committing to backend engineering, I worked on **Python-based data processing and ETL-style scripts**.  
+This helped me develop a solid understanding of:
+- Data flow in backend systems
+- Input validation and error handling
+- Backend responsibility boundaries
 
-**Concepts Demonstrated**
-- Event time vs processing time  
-- Exactly-once vs at-least-once semantics  
-
-🔗 GitHub: *(link coming soon)*
+That experience now supports my backend work rather than defining my role.
 
 ---
 
-### 3️⃣ Analytics Warehouse & Metrics Layer (SQL + dbt)
-**Problem:** Analysts need trustworthy, well-modeled data.
+## 🌱 Engineering Philosophy
 
-**What I Built**
-- Fact & dimension tables  
-- Incremental models  
-- Data tests & documentation  
+- Fundamentals > frameworks
+- Clarity > cleverness
+- Consistency > speed
 
-**Concepts Demonstrated**
-- Dimensional modeling  
-- KPI correctness  
-- Analytics engineering practices  
-
-🔗 GitHub: *(link coming soon)*
-
----
-
-### 4️⃣ AI-Ready Data Platform (In Progress)
-**Problem:** AI systems fail without high-quality, well-served data.
-
-**What I’m Building**
-- Feature ingestion pipelines  
-- Vector embedding storage  
-- RAG-ready data architecture  
-
-**Concepts Demonstrated**
-- ML vs data engineering responsibilities  
-- Data freshness & drift awareness  
-
-🔗 GitHub: *(planned)*
-
----
-
-## 🧩 System Design Focus
-
-I actively practice **data engineering system design**, including:
-- Batch vs streaming trade-offs  
-- Failure handling & backfills  
-- Cost-aware cloud architecture  
-- Scaling data pipelines responsibly  
-
-I prioritize **clear data flow explanations** over tool-heavy answers.
-
----
-
-## 📚 Learning Philosophy
-
-I follow a strict execution model:
-
-**Course → Documentation → Build → Break → Explain → Repeat**
-
-This ensures:
-- No shallow learning  
-- Strong fundamentals  
-- Interview-ready explanations  
-
----
-
-## 📈 What I’m Working Toward
-
-- Entry-level **Data Engineer / Data Platform Engineer** roles  
-- Teams building **large-scale data systems**
-- Environments where **engineering rigor matters**
+I prefer building fewer things well instead of many things poorly.
 
 ---
 
 ## 📫 Connect With Me
 
-- LinkedIn: https://linkedin.com/in/jaey--here  
-- GitHub: https://github.com/jaynikam2005  
-- Email: jaynikam2005@gmail.com  
+- **LinkedIn:** https://www.linkedin.com/in/jaey--here  
+- **GitHub:** https://github.com/jaynikam2005  
 
----
-
-> *“Good data engineering is invisible when it works and painfully obvious when it doesn’t.”*
+⭐ *Actively preparing for backend internships and entry-level backend roles (2026).*

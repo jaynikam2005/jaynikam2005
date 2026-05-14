@@ -1,101 +1,174 @@
 # Hi, I'm Jayesh Nikam 👋
 
-🚀 **Backend Software Engineer (Java | Spring Boot)**  
-Focused on building clean, scalable backend systems with strong fundamentals and real-world engineering practices.
+🤖 **AI Engineer in Training | Full Stack Developer**
+Building AI-powered applications with LangChain, RAG, and LLMs.
+Currently on a focused 6-month roadmap to become an AI Engineer.
 
 ---
 
 ## 👨‍💻 About Me
 
-I am a Computer Engineering student preparing for **backend software engineering roles** with a focus on **Java, object-oriented design, REST APIs, and system fundamentals**.
+Final year Computer Science graduate from K.K. Wagh Institute
+of Engineering Education and Research, Nashik (June 2026).
 
-I approach learning by:
-- Understanding fundamentals before frameworks
-- Writing clean, readable backend code
-- Building small systems end-to-end and improving them iteratively
+Currently interning as a **Software Engineering Intern at Swifty9 PVT. LTD.**
+building production-grade full stack web applications.
 
-My goal is to grow into a **reliable backend engineer** who understands how real production systems are designed, built, and maintained.
+I build things that actually work and are actually deployed.
+Every project on this profile has a live URL.
 
 ---
 
-## 🧠 Current Focus (2026 Track)
+## 🎯 Current Goal (June — December 2026)
 
-- Java (core + OOP)
-- Backend development with **Spring Boot**
-- REST API design
-- Databases & SQL
-- Authentication & authorization
-- System design fundamentals
-- AI-enabled backend features (API integration, not ML research)
+Becoming an **AI Engineer** — not a researcher, not an ML
+scientist, but someone who builds real products using LLMs,
+RAG, and AI APIs.
+
+**The 6-month roadmap:**
+- June-July → Python foundations + LeetCode daily
+- July-August → FastAPI + OpenAI API + embeddings + 
+  vector databases
+- August-September → Build DocuMind (RAG flagship project)
+- October → Interview prep + second AI project
+- November-December → Apply + get hired
 
 ---
 
 ## 🛠️ Tech Stack
 
+**AI and ML**
+- LangChain
+- OpenAI API / Gemini API
+- RAG (Retrieval Augmented Generation)
+- Prompt Engineering
+- Vector Databases (pgvector, Pinecone)
+- Embeddings and Semantic Search
+
 **Backend**
-- Java (Primary)
-- Spring Boot
-- REST APIs
-- JPA / Hibernate
+- Python + FastAPI (learning)
+- Node.js + Express.js
+- REST API Design
+- JWT Authentication
+- Zod validation
+
+**Frontend**
+- Next.js 14
+- React.js
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
 
 **Databases**
-- PostgreSQL
-- MySQL (basics)
+- PostgreSQL + Prisma ORM
+- pgvector
+- MongoDB
+- MySQL
 
-**Tools & Practices**
-- Git & GitHub
-- Maven
-- Linux basics
-- Docker (learning)
-
-**AI Integration**
-- LLM APIs (OpenAI / Gemini)
-- Backend orchestration for AI-powered features
-
----
-
-## 📂 Projects & Code
-
-This GitHub profile documents my journey of building **backend-focused projects**, starting from strong Java fundamentals and moving toward production-style backend services.
-
-Current work includes:
-- Java basics & OOP practice
-- Backend-oriented class design
-- Clean coding and modular structure
-
-Upcoming projects:
-- Spring Boot REST API with authentication
-- Database-backed backend services
-- Scalable backend features
-- AI-powered backend endpoints
+**Tools**
+- Git + GitHub
+- Docker (basics)
+- Railway (deployment)
+- Postman
+- WebStorm
 
 ---
 
-## 📌 Learning & Experience
+## 📂 Featured Projects
 
-Before fully committing to backend engineering, I worked on **Python-based data processing and ETL-style scripts**.  
-This helped me develop a solid understanding of:
-- Data flow in backend systems
-- Input validation and error handling
-- Backend responsibility boundaries
+### 🔴 DocuMind — AI Document Intelligence Platform
+> Coming September 2026
 
-That experience now supports my backend work rather than defining my role.
+RAG-based platform where users upload PDFs and ask questions
+in natural language. System retrieves relevant chunks using
+semantic search and generates cited answers.
 
----
-
-## 🌱 Engineering Philosophy
-
-- Fundamentals > frameworks
-- Clarity > cleverness
-- Consistency > speed
-
-I prefer building fewer things well instead of many things poorly.
+Stack: Python + FastAPI + LangChain + pgvector + 
+OpenAI API + Next.js + PostgreSQL
 
 ---
 
-## 📫 Connect With Me
+### ✅ Team Task Manager — Live
+**[GitHub](https://github.com/jaynikam2005/team-task-manager)**
+&nbsp;|&nbsp;
+**[Live](https://team-task-manager-production-f954.up.railway.app)**
 
-- **LinkedIn:** https://www.linkedin.com/in/jaey--here  
-- **GitHub:** https://github.com/jaynikam2005  
+Full stack project management app with role-based access
+control (Admin/Member), JWT auth, member invite system,
+real-time task tracking, and overdue detection.
 
-⭐ *Actively preparing for backend internships and entry-level backend roles (2026).*
+Stack: Next.js 14 + TypeScript + PostgreSQL + 
+Prisma ORM + Tailwind CSS + Railway
+
+---
+
+### ✅ AI Customer Support Chatbot — Live
+**[GitHub](https://github.com/jaynikam2005/ai-customer-support-chatbot)**
+
+AI-powered chatbot with Gemini API integration, JWT auth,
+Django + Node.js backend, contextual automated responses.
+
+---
+
+### ✅ CargoOptix — PyPI Published
+**[GitHub](https://github.com/SarthSatpute/cargooptix)**
+&nbsp;|&nbsp;
+**[PyPI: py3dbc](https://pypi.org/project/py3dbc/)**
+
+Python-driven maritime container optimization system.
+Co-developed the py3dbc library published on PyPI.
+
+---
+
+## 📜 Certifications
+
+- 🎓 CS50P — Harvard University via edX *(in progress)*
+- ☁️ AWS Cloud Practitioner *(target: October 2026)*
+- 🤖 LangChain for LLM Application Development — 
+  DeepLearning.AI by Andrew Ng *(in progress)*
+- 🤖 ChatGPT Prompt Engineering for Developers — 
+  DeepLearning.AI by Andrew Ng *(in progress)*
+- ☁️ AWS Academy Cloud Foundations — Amazon Web Services
+- ✅ HackerRank Java and SQL (Basic)
+
+---
+
+## 🏆 Achievements
+
+- 🥇 1st Place — CSI DBMS Project Competition 
+  (State Level, 100+ teams)
+- 🏅 Top 5% — Technovation Global Hackathon 
+  (700+ teams)
+- 💻 Solving LeetCode daily in Python 
+  (target: 150+ problems by December)
+
+---
+
+## 📊 This Week I'm Working On
+
+- [ ] Python fundamentals (CS50P)
+- [ ] 1 LeetCode problem daily
+- [ ] FastAPI basics
+- [ ] DeepLearning.AI short courses
+
+---
+
+## 🌱 Philosophy
+
+- Ship working things over perfect things
+- Deploy early, improve constantly  
+- Learn by building not just watching
+- One commit every single day
+
+---
+
+## 📫 Connect
+
+- **LinkedIn:** linkedin.com/in/jaey--here
+- **LeetCode:** leetcode.com/u/jaey--here
+- **Email:** jaynikam2005@gmail.com
+
+---
+
+⭐ *Actively looking for AI Engineer and Full Stack 
+Developer roles — available from June 2026.*
